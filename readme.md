@@ -10,11 +10,11 @@
 
 ##Email config
 
-  #### config/mail.php <br>
+  ###config/mail.php <br>
 
     `'from' => ['address' => 'youremail@xxx.com', 'name' => 'yourname']`
 
-  #### .env profile <br>
+  ###.env profile <br>
 
     `
     MAIL_DRIVER=smtp
