@@ -11,6 +11,19 @@
 |
 */
 
+use Illuminate\Support\Facades\Mail;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('email/queue', function() {
+
+    Mail::later(5, 'emails.queued_email', ['name' => 'jeffery'], function ($message)
+    {
+        $message->to('aaa153759g@gmail.com', 'jeffery')->subject('Welcome');
+    });
+
+    return 'This email will be sent in 5 seconds.';
+
 });
