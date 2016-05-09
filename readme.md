@@ -9,8 +9,10 @@
   1. `php artisan queue:listen`
 
 ##Email config
+
   ####1. config/mail.php
     `'from' => ['address' => 'youremail@xxx.com', 'name' => 'yourname']`
+
   ####2. .env profile <br>
     `
     MAIL_DRIVER=smtp
