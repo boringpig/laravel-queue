@@ -14,14 +14,12 @@
     `'from' => ['address' => 'youremail@xxx.com', 'name' => 'yourname']`
 
   2. .env profile <br>
-    `
-    MAIL_DRIVER=smtp
-    MAIL_HOST=smtp.gmail.com
-    MAIL_PORT=587
-    MAIL_USERNAME=youremail@xxx.com
-    MAIL_PASSWORD=yourpassword
-    MAIL_ENCRYPTION=tls
-    `
+    `MAIL_DRIVER=smtp` <br>
+    `MAIL_HOST=smtp.gmail.com` <br>
+    `MAIL_PORT=587` <br>
+    `MAIL_USERNAME=youremail@xxx.com` <br>
+    `MAIL_PASSWORD=yourpassword` <br>
+    `MAIL_ENCRYPTION=tls` <br>
 
 ## Reference site
   [laravel 5 send queued email](https://www.youtube.com/watch?v=FiQn87SA7to)
