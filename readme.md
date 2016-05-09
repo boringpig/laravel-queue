@@ -10,10 +10,12 @@
 
 ##Email config
 
-  ####1. config/mail.php
+  #### config/mail.php <br>
+
     `'from' => ['address' => 'youremail@xxx.com', 'name' => 'yourname']`
 
-  ####2. .env profile <br>
+  #### .env profile <br>
+
     `
     MAIL_DRIVER=smtp
     MAIL_HOST=smtp.gmail.com
