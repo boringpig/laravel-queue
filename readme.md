@@ -27,3 +27,4 @@
 ## Reference site
   * [laravel 5 send queued email](https://www.youtube.com/watch?v=FiQn87SA7to) <br>
   * [google gmail setting](http://learninglaravel.net/learn-to-send-emails-using-gmail-and-sendgrid-in-laravel-5)
+  * [Mail_template](https://www.youtube.com/watch?v=3U-8DJMhNRE&index=1&list=PLgXHySBLgtg5LcEtJ0JzNvXmV9Up85a0D)

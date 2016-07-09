@@ -55,7 +55,8 @@ return [
     |
     */
 
-    'from' => ['address' => 'aaa153759g@gmail.com', 'name' => 'jeffery'],
+    'from' => ['address' => 'noreply@jeffery.com', 'name' => 'Jeffery Blog'],
+
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol

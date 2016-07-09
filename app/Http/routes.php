@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/create', 'MailController@store');
+
 Route::get('email/queue', function() {
 
     Mail::later(5, 'emails.queued_email', ['name' => 'jeffery'], function ($message)
